@@ -1,0 +1,5 @@
+n=[31,18,25,08,05]
+  for i in range(5):
+      v=n.pop(0)
+      n.append(v)
+  print(n)
